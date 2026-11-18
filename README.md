@@ -183,6 +183,12 @@ shared misunderstanding; real Studio is the real test.
   (boot time of a Pi Zero W).
 - FAT stores modification times in 2-second steps, so after uploading a profile Studio may download it once more.
 
+## Ports
+
+- **[kl-zero-t-dongle](https://github.com/henrygreenslade/kl-zero-t-dongle/tree/main/t-dongle-s3)** by Henry Greenslade:
+  the same idea on a LILYGO T-Dongle-S3 (ESP32-S3). It plugs straight into the roaster, is ready within seconds,
+  and adds a web page for the files on the card. Read its power caveat before using it.
+
 ## Legal
 
 The protocol description was produced by analysing how Kaffelogic Studio communicates, for the sole purpose of
